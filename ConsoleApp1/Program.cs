@@ -36,15 +36,10 @@ namespace SredniaLiczb
 
         }
 
-        public static int ZnajdzMaksimum(int[] liczbyMaxPrzedZmiana)
-        {
-            if (liczbyMaxPrzedZmiana == null || liczbyMaxPrzedZmiana.Length == 0)
             {
                 throw new ArgumentException("Tablica nie może być null lub pusta.");
             }
 
-            int maks = liczbyMaxPrzedZmiana[0];
-            foreach (int liczba in liczbyMaxPrzedZmiana)
             {
                 if (liczba > maks)
                 {
